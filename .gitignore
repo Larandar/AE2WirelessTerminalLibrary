@@ -10,6 +10,14 @@ out/
 # mpeltonen/sbt-idea plugin
 .idea_modules/
 
+# Eclipse
+.classpath
+.project
+.settings/
+
+# VS-Code
+.vscode/
+
 # JIRA plugin
 atlassian-ide-plugin.xml
 
@@ -23,6 +31,7 @@ atlassian-ide-plugin.xml
 *.ctxt
 
 # Package Files #
+bin/
 *.jar
 *.war
 *.nar
